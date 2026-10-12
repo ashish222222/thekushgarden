@@ -1,0 +1,7 @@
+{
+  "name": "L’Ambre Hearth & Lounge | Fine Dining Thamel",
+  "description": "Modern premium restaurant website with seasonal Himalayan hearth gastronomy, online reservations, interactive menu, and curated dining experiences in Thamel, Kathmandu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
