@@ -29,18 +29,18 @@ export const RESTAURANT_INFO = {
   ]
 };
 
-export const HERO_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/01/apsaraa.jpeg";
+export const HERO_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_kush.jpg";
 export const CHEF_IMAGE = "/src/assets/images/chef_plating_dish_1790848798344.jpg";
 export const DISH_TENDERLOIN_IMAGE = "/src/assets/images/dish_himalayan_tenderloin_1790848810918.jpg";
 export const DISH_DUCK_IMAGE = "/src/assets/images/drink.jpeg";
 export const COCKTAIL_SMOKE_IMAGE = "/src/assets/images/cocktail_himalayan_smoke_1790848839775.jpg";
 
-export const COK_DRINK_IMAGE = "/src/assets/images/cok_drink.jpg";
-export const COK_SEXONTHEBEACH_IMAGE = "/src/assets/images/cok_sexonthebeach.jpg";
+export const COK_DRINK_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/cok_drink.jpg";
+export const COK_SEXONTHEBEACH_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/cok_sexonthebeach.jpg";
 
-export const SIG_CHICKEN_IMAGE = "/src/assets/images/sig_chicken.jpg";
-export const SIG_CHICKEN_BIRANY_IMAGE = "/src/assets/images/sig_chicken_birany.jpg";
-export const SIG_THALI_IMAGE = "/src/assets/images/sig_thali.jpg";
+export const SIG_CHICKEN_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_chicken.jpg";
+export const SIG_CHICKEN_BIRANY_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_chicken_birany.jpg";
+export const SIG_THALI_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_thali.jpg";
 //export const DISH_DUCK_IMAGE = "/src/assets/images/dish_duck.jpeg";
 
 export const MENU_ITEMS: MenuItem[] = [
