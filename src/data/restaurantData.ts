@@ -29,7 +29,7 @@ export const RESTAURANT_INFO = {
   ]
 };
 
-export const HERO_IMAGE = "/src/assets/images/amb_kush.jpg";
+export const HERO_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/01/apsaraa.jpeg";
 export const CHEF_IMAGE = "/src/assets/images/chef_plating_dish_1790848798344.jpg";
 export const DISH_TENDERLOIN_IMAGE = "/src/assets/images/dish_himalayan_tenderloin_1790848810918.jpg";
 export const DISH_DUCK_IMAGE = "/src/assets/images/drink.jpeg";
