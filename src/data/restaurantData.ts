@@ -3,8 +3,8 @@ import { MenuItem, Review, GalleryItem } from '../types/restaurant';
 export const RESTAURANT_INFO = {
   name: "The’Kush Garden",
   shortName: "Kush’Garden",
-  tagline: "Contemporary Himalayan Gastronomy & Artisanal Fire",
-  description: "An immersive culinary sanctuary nestled in historic Thamel, celebrating heritage charcoal hearth cookery, wild mountain botanicals, and bespoke mixology.",
+  tagline: "An Immersive Culinary Sanctuary",
+  description: "The’Kush Garden is a premium dining destination in Biratnagar, Nepal, offering an immersive culinary experience that blends contemporary Himalayan gastronomy with ancestral wood-fired charcoal hearth cooking. Our restaurant is designed to provide a warm and inviting atmosphere, where guests can savor signature dishes crafted from locally sourced ingredients, complemented by an extensive selection of beverages. With a focus on exceptional service and attention to detail, The’Kush Garden is the perfect place to enjoy memorable meals with friends and family.",
   address: "Airport road, Biratnagar-4, Moranag, Nepal",
   neighborhood: "Airport Road",
   coordinates: {
