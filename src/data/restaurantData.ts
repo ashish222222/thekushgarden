@@ -14,11 +14,11 @@ export const RESTAURANT_INFO = {
   },
   phone: "+977 9712054843",
   conciergePhone: "+977 9712054841",
-  email: "thekushgarden@gmail.com",
+  email: "thekushgardenbrt@gmail.com",
   inquiriesEmail: "concierge@lambre-thamel.com",
   hours: {
-    weekday: "Monday – Friday: 07:00 AM – 10:00 PM",
-    weekend: "Saturday – Sunday: 07:00 AM – 11:00 PM",
+    weekday: "Monday – Thursday: 07:00 AM – 09:30 PM",
+    weekend: "Friday – Sunday: 07:00 AM – 10:00 PM",
     barHours: "Lounge & Hearth Bar open until midnight on weekends"
   },
   stats: [
@@ -29,7 +29,7 @@ export const RESTAURANT_INFO = {
   ]
 };
 
-export const HERO_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_kush.jpg";
+export const HERO_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/herosection.jpeg";
 export const CHEF_IMAGE = "/src/assets/images/chef_plating_dish_1790848798344.jpg";
 export const DISH_TENDERLOIN_IMAGE = "/src/assets/images/dish_himalayan_tenderloin_1790848810918.jpg";
 export const DISH_DUCK_IMAGE = "/src/assets/images/drink.jpeg";
@@ -41,7 +41,13 @@ export const COK_SEXONTHEBEACH_IMAGE = "https://sajilonumber.com/wp-content/uplo
 export const SIG_CHICKEN_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_chicken.jpg";
 export const SIG_CHICKEN_BIRANY_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_chicken_birany.jpg";
 export const SIG_THALI_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_thali.jpg";
+export const SIG_burger_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/sig_burger.jpeg";
 //export const DISH_DUCK_IMAGE = "/src/assets/images/dish_duck.jpeg";
+
+export const AMB_1_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_1-1.jpeg";
+export const AMB_2_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_2.jpeg";
+export const AMB_3_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_3.jpeg";
+export const AMB_4_IMAGE = "https://sajilonumber.com/wp-content/uploads/2026/10/amb_4.jpeg";
 
 export const MENU_ITEMS: MenuItem[] = [
   {
@@ -195,21 +201,21 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     image: HERO_IMAGE,
     caption: "SIntimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
   },
-  {
-    id: "g2",
-    title: "Mastery at the Pass",
-    category: "hearth",
-    categoryLabel: "Culinary Craft",
-    image: CHEF_IMAGE,
-    caption: "Executive Chef Soren precision-finishing our charcoal-grilled seasonal tasting courses."
-  },
+  // {
+  //   id: "g2",
+  //   title: "Mastery at the Pass",
+  //   category: "hearth",
+  //   categoryLabel: "Culinary Craft",
+  //   image: CHEF_IMAGE,
+  //   caption: "Executive Chef Soren precision-finishing our charcoal-grilled seasonal tasting courses."
+  // },
   {
     id: "g3",
-    title: "Dry-Aged Tenderloin Plating",
+    title: "",
     category: "dishes",
     categoryLabel: "Signature Dishes",
     image: SIG_CHICKEN_IMAGE,
-    caption: "Applewood grilled prime tenderloin with winter truffle purée and microgreens."
+    caption: ""
   },
   {
     id: "g4",
@@ -227,14 +233,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     image: COK_DRINK_IMAGE,
     caption: "Handcrafted smoked single-malt cocktails infused with mountain botanicals and spicesS."
   },
-  // {
-  //   id: "g6",
-  //   title: "The Courtyard Nightcap",
-  //   category: "ambiance",
-  //   categoryLabel: "Interior Ambiance",
-  //   image: HERO_IMAGE,
-  //   caption: "Late evening gatherings in our private heated courtyard garden under starlit Himalayan skies."
-  // },
+  {
+    id: "g6",
+    title: "Clay-Roasted Wild Duck",
+    category: "dishes",
+    categoryLabel: "Signature Dishes",
+    image: SIG_burger_IMAGE,
+    caption: "A delicious burger crafted with locally sourced ingredients and a hint of Himalayan spices."
+  },
     {
     id: "g7",
     title: "Smoked Himalayan Elixir",
@@ -251,6 +257,39 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     image: SIG_THALI_IMAGE,
     caption: "Wild timur pepper cured duck breast served over saffron-parsnip emulsion."
   },
+   {
+    id: "g9",
+    title: "",
+    category: "ambiance",
+    categoryLabel: "Interior Ambiance",
+    image: AMB_1_IMAGE,
+    caption: "SIntimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
+  },
+   {
+    id: "g10",
+    title: "",
+    category: "ambiance",
+    categoryLabel: "Interior Ambiance",
+    image: AMB_2_IMAGE,
+    caption: "SIntimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
+  },
+   {
+    id: "g11",
+    title: "",
+    category: "ambiance",
+    categoryLabel: "Interior Ambiance",
+    image: AMB_3_IMAGE,
+    caption: "SIntimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
+  },
+   {
+    id: "g12",
+    title: "",
+    category: "ambiance",
+    categoryLabel: "Interior Ambiance",
+    image: AMB_4_IMAGE,
+    caption: "SIntimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
+  },
+   
 
 ];
 

@@ -57,7 +57,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
               transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
               className="text-base sm:text-lg text-[#C8C2B5] max-w-xl font-light leading-relaxed mb-8"
             >
-              An immersive culinary sanctuary celebrating heritage wood-fired cooking, wild mountain botanicals, and bespoke mixology in the heart of historic Kathmandu.
+              Discover a delightful dining experience with flavorful dishes, warm hospitality, and an inviting atmosphere made for every occasion. From intimate dinners to lively gatherings, we offer a culinary journey that leaves a lasting impression.
             </motion.p>
 
             {/* Animated CTAs */}
@@ -77,16 +77,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
                 Book a Table
               </motion.button> */}
 
-              <motion.button
-                whileHover={{ scale: 1.02, backgroundColor: 'rgba(255,255,255,0.08)' }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onExploreMenu}
-                className="px-8 py-3.5 text-xs sm:text-sm font-semibold tracking-widest uppercase text-[#FAF7F2] bg-[#161820] border border-[#C59B27]/40 rounded-sm hover:border-[#C59B27] transition-all flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap"
-              >
-                <UtensilsCrossed className="w-4 h-4 text-[#C59B27]" />
-                View Seasonal Menu
-                <ArrowRight className="w-3.5 h-3.5 text-[#C59B27]" />
-              </motion.button>
+              <a
+  href="#gallery"
+  className="px-8 py-3.5 text-xs sm:text-sm font-semibold tracking-widest uppercase text-[#FAF7F2] bg-[#161820] border border-[#C59B27]/40 rounded-sm hover:border-[#C59B27] hover:bg-white/[0.08] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap"
+>
+  <UtensilsCrossed className="w-4 h-4 text-[#C59B27]" />
+  Atmosphere Gallery
+  <ArrowRight className="w-3.5 h-3.5 text-[#C59B27]" />
+</a>
             </motion.div>
 
             {/* Trust Badges / Metadata (Zero-pill discipline) */}
@@ -96,13 +94,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
               transition={{ duration: 1, delay: 0.6 }}
               className="pt-6 border-t border-[#232635] flex flex-wrap items-center gap-y-2 gap-x-4 text-xs text-[#9B9384] font-medium tracking-wider w-full"
             >
-              <span>Est. 2012</span>
+              <span>Est. 2024</span>
               <span aria-hidden="true" className="text-[#4E483D]">·</span>
-              <span>Applewood Charcoal Hearth</span>
+              <span>Locally Sourced Ingredients</span>
               <span aria-hidden="true" className="text-[#4E483D]">·</span>
-              <span>Wild Foraged Botanicals</span>
+              <span>Seasonal Specialties</span>
               <span aria-hidden="true" className="text-[#4E483D]">·</span>
-              <span>4.9★ Acclaim</span>
+              <span>Handcrafted Cocktails</span>
             </motion.div>
           </div>
 
@@ -121,8 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
               <div className="relative aspect-[4/5] sm:aspect-[4/5] rounded-xl overflow-hidden border border-[#2D3040] bg-[#14161E] shadow-[0_20px_50px_rgba(0,0,0,0.8)] group">
                 <img
                   src={HERO_IMAGE}
-                  alt="L’Ambre restaurant interior with candlelit dining tables in Thamel"
-                  referrerPolicy="no-referrer"
+                  alt="The Kush Garden Restaurant Interior"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
@@ -139,13 +136,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
                     <span className="text-[#FAF7F2]">Open Tonight</span>
                   </div>
                   <p className="text-sm font-serif italic text-[#FAF7F2] leading-snug">
-                    "Intimate dark timber tables bathed in soft amber candlelight and warm acoustic textures."
+                    "A warm and inviting ambiance, where the aroma of wood-fired delicacies fills the air, creating a sanctuary for culinary enthusiasts."
                   </p>
                 </div>
               </div>
 
               {/* Floating Signature Dish Inset Card */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
@@ -170,7 +167,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
                     Wood-Fired · $34
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               {/* Floating Top Rating Card */}
               <motion.div
@@ -180,8 +177,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
                 className="absolute -top-4 -right-4 sm:-right-6 bg-[#151720]/95 backdrop-blur-md border border-[#2D3040] rounded-lg py-2 px-3.5 shadow-2xl flex items-center gap-2 text-xs"
               >
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span className="text-[#FAF7F2] font-semibold">Michelin Acclaimed</span>
-                <span className="text-[#C59B27] font-serif">4.9★</span>
+                {/* <span className="text-[#FAF7F2] font-semibold">Michelin Acclaimed</span>
+                <span className="text-[#C59B27] font-serif">4.9★</span> */}
               </motion.div>
             </div>
           </motion.div>

@@ -60,7 +60,7 @@ export default function App() {
         <Gallery />
 
         {/* Testimonials & Reviews Slider */}
-        <CustomerReviews />
+        {/* <CustomerReviews /> */}
 
         {/* Interactive Location, Google Maps Style Map & Hours */}
         <LocationSection />

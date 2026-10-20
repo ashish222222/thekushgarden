@@ -25,7 +25,8 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs sm:text-sm text-[#979083] font-light leading-relaxed max-w-sm">
-              Contemporary Himalayan gastronomy and ancestral wood-fired charcoal hearth cooking. Proudly rooted in Thamel, Kathmandu since 2012.
+          Experience delicious food, refreshing vibes, and a relaxing atmosphere at The Kush Garden. The perfect place to enjoy great flavors,
+           connect with friends, and create unforgettable memories.
             </p>
             <div className="text-xs text-[#C59B27] font-medium tracking-wider">
               {RESTAURANT_INFO.coordinates.formatted}
@@ -41,12 +42,12 @@ export const Footer: React.FC = () => {
               <li>
                 <a href="#home" className="hover:text-[#C59B27] transition-colors">Home Sanctuary</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#menu" className="hover:text-[#C59B27] transition-colors">Seasonal Hearth Menu</a>
               </li>
               <li>
                 <a href="#about" className="hover:text-[#C59B27] transition-colors">The Chef & Story</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#gallery" className="hover:text-[#C59B27] transition-colors">Atmosphere Gallery</a>
               </li>
@@ -62,8 +63,8 @@ export const Footer: React.FC = () => {
               Service Times
             </div>
             <div className="text-xs text-[#9E978A] space-y-1.5 font-light">
-              <p><strong className="text-[#DDD7CC] font-medium">Mon – Fri:</strong> 11:00 AM – 10:00 PM</p>
-              <p><strong className="text-[#DDD7CC] font-medium">Sat – Sun:</strong> 10:00 AM – 11:00 PM</p>
+              <p><strong className="text-[#DDD7CC] font-medium">Mon – Fri:</strong> 07:00 AM – 09:30 PM</p>
+              <p><strong className="text-[#DDD7CC] font-medium">Sat – Sun:</strong> 07:00 AM – 10:00 PM</p>
               <p className="text-[11px] text-[#787265] pt-1">Hearth Bar remains open until midnight on weekends.</p>
             </div>
           </div>
@@ -112,11 +113,11 @@ export const Footer: React.FC = () => {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://tripadvisor.com"
+                href="https://www.tiktok.com/@the.kush.garden"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2 bg-[#14161E] hover:bg-[#1E212D] text-[#9A9385] hover:text-[#C59B27] rounded transition-colors"
-                aria-label="Tripadvisor page"
+                aria-label="TikTok page"
               >
                 <Globe className="w-4 h-4" />
               </a>
@@ -128,6 +129,10 @@ export const Footer: React.FC = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#736D61] gap-4">
           <div>
             © {new Date().getFullYear()} The'Kush Garden. All rights reserved. 
+            <a href="https://sajilonumber.com/ashish-sangroula/" target="_blank" rel="noreferrer"
+             className="hover:text-[#C59B27] transition-colors">Ashish Sangroula</a>
+          </div>
+          <div className="flex items-center gap-4">
           </div>
 
           <div className="flex items-center gap-6">

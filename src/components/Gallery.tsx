@@ -61,13 +61,13 @@ export const Gallery: React.FC = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="text-xs uppercase tracking-[0.25em] text-[#C59B27] font-medium mb-3">
-            Visual Atmosphere
+            Atmosphere Gallery
           </div>
           <h2 className="text-3xl sm:text-5xl font-serif text-[#FAF7F2] font-normal tracking-tight mb-4" style={{ textWrap: 'balance' }}>
             T’he Kush Garden
           </h2>
           <p className="text-sm sm:text-base text-[#AEA799] font-light">
-            Glimpses into our candlelit sanctuary, culinary precision at the pass, and handcrafted libations.
+            A visual journey through our Himalayan-inspired sanctuary, showcasing the essence of our culinary artistry, intimate ambiance, and handcrafted cocktails.
           </p>
         </div>
 
